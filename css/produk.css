@@ -1,0 +1,55 @@
+:root {
+  --primary: #b6895b;
+  --bg: #010101;
+}
+
+body {
+  font-family: "Poppins" sans-serif;
+  background-color: var(--bg);
+  color: #fff;
+}
+
+.heading {
+  text-align: center;
+}
+
+.heading h2 {
+  font-size: 1.8rem;
+  text-transform: uppercase;
+}
+
+.produk-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.produk-container h3 {
+  text-align: center;
+}
+
+.produk-container .box {
+  position: relative;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  border-radius: 0.5rem;
+  box-shadow: #fff;
+}
+
+.produk-container img {
+  width: 100%;
+  height: 250px;
+  object-fit: contain;
+  object-position: center;
+  padding: 20px;
+  background: #f1f1f1;
+  border-radius: 0.5rem 0 0.5rem;
+}
+
+.produk-container .box .content {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
